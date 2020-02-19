@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css" />
+		<title> CREEPER, AHHHH MAN </title>
+			<script>
+				function banner(){
+					var text=confirm("you wanana change ur skin?.");
+					return text;
+				}
+
+				function answer(){
+					var radio=document.getElementsByName("trivia");
+					var selection=false;
+					var message="";
+					for( var i = 0; i < radio.length; i++) {
+						if(radio[i].value == "yes" && radio[i].checked == true) {
+							selection = true;
+						} 
+					}
+					if(selection == true) {
+						message = message + "<b><p style='color:#03fc9d'>yessir.</p></b>";
+					} else {
+						message = message + "<b><p style='color:#279169'>get out ur bad.</p></b>";
+					}
+					document.getElementById("response").innerHTML = message;
+				}
+			</script>
+	</head>
+<body>
+	<a onclick="return banner()" href="https://www.minecraftskins.com/">
+	<header id="banner">
+		CREEPER, AHHHH MAN
+	</header>
+	</a>
+
+		<nav>
+			<ul id="navmenu">
+				<li class="navitem"><a href="index.html">HOME</a></li>
+				<li class="navitem"> <a href="herun.html">ANOTHER</a></li>
+				<li class="navitem"><a href="heded.html">AND ANOTHER</a></li>
+			</ul>
+		</nav>
+
+<div class="rightside">
+	<img class="idkpictures" width="100" height="200" src="https://render.namemc.com/skin/3d/body.png?skin=4f846c2879836e2a&model=classic&width=200&height=400" />
+	<img class="idkpictures" width="110" length="210" src="https://lh3.googleusercontent.com/lX4GycV-4C4anyN3HU0V4Wg9ofBQCSbzG61qXcgmrLB0lp0Yrl9G6TdOfAVcuHLL7OiTovXkMs6BDxt7w7ietL4=s400" />
+	<img class="idkpictures" width="100" height="200" src="https://render.namemc.com/skin/3d/body.png?skin=94768be5a847c43b&model=classic&width=200&height=400" />
+	<hr />
+	<iframe id="ytvideo" width="560" height="315" src="https://www.youtube.com/embed/I-sH53vXP2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<hr />
+	<img id="frame" class="idkpictures" width="95" height="200" src="https://lh3.googleusercontent.com/n75_zHohle_w0G4nwZEHVIFf-K6m75RG1zVfBMIEy8dBOX_lEyGqNcKNHB5UJAaX8RVl4IsDCdNHGtQTsvGWnt0=s400" />
+	<img id="frame" class="idkpictures" width="95" height="200" src="https://lh3.googleusercontent.com/n75_zHohle_w0G4nwZEHVIFf-K6m75RG1zVfBMIEy8dBOX_lEyGqNcKNHB5UJAaX8RVl4IsDCdNHGtQTsvGWnt0=s400" />
+	<img id="frame" class="idkpictures" width="95" height="200" src="https://lh3.googleusercontent.com/n75_zHohle_w0G4nwZEHVIFf-K6m75RG1zVfBMIEy8dBOX_lEyGqNcKNHB5UJAaX8RVl4IsDCdNHGtQTsvGWnt0=s400" />
+</div>
+
+<div class="cntr">
+		<p><strong><i>IDK HOW TO SAY THIS </strong>so i didnt really know what I was doing half of class but I'm hoping I meet most the the R e Q uI ErmEntz!!! this place is all aboute MINECRAFT </i></p>
+<div>
+		<p>Who is the main character of MiNeCraft?</p>
+		<form>
+<div id="response"></div>
+	<input type="radio" name="trivia" value="yes"/> Steve <br>
+	<input type="radio" name="trivia" value="no" /> bob <br>
+	<input type="radio" name="trivia" value="no" /> George <br>
+	<input onclick="answer()" id="clicker" type="button" value="Click me" />
+		</form>
+</div>
+		<p><strong><i>we have a good time in minecraft where we build a lot of things with blocks and honestly go freakin' insane. theres three modes in the game and hardcore is the only way to play. ur no real gamer if you don't play hard mode. get out if you play creative, thats gross and weak.</i></p>
+
+		<p><i> click play for an absolute bop</i></p>
+
+		<audio controls>
+		<source src="Revenge - A Minecraft Parody of Usher's DJ Got Us Fallin' In Love (Music Video).mp3" type="audio/mp3">
+		</audio>
+</div>
+<div class="clearfloat"></div>
+
+<hr />
+</html>
+
